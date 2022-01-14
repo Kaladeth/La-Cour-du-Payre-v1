@@ -9,6 +9,9 @@ h1, h2, h3, h4 {
     color: #008037;
     font-weight: bold;
 }
+h3 {
+    text-shadow : 0 0 10px black;
+}
 
 p {
     font-family: 'Montserrat', sans-serif;
@@ -172,11 +175,11 @@ nav div {
 }
 
 #paragraphe1 h4 {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 #text-p-1 {
-    padding: 0 30px;
+    padding: 0 20px;
     text-align: justify;
 }
 
@@ -187,6 +190,9 @@ nav div {
     background-color: #008037;
     content: "";
     margin-top: 30px;
+}
+#paragraphe1 p {
+    margin-top:40px;
 }
 
 /* IMAGE */
@@ -206,4 +212,98 @@ nav div {
         margin-left: 0;
         margin-top: 30px;
     }
+}
+/* LES DESTINATIONS PHARES =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  */
+#destinations {
+    margin-top:100px;
+    background-color:#AE8964;
+    padding-top:20px;
+}
+#destinations h2 {
+    font-size:3em;
+}
+@media screen and (max-width:690px) {
+    #destinations h2 {
+        font-size:2em;
+    }
+}
+#destinations h3 {
+    color:white;
+}
+#photo-a {
+    background-image: url(../images/puy-du-fou.jpg);
+    height:500px;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:flex-end;
+    padding-right:20px;
+}
+#photo-b {
+    background-image: url(../images/ile-noirmoutier.jpeg);
+    height:500px;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:flex-end;
+    padding-right:20px;
+}
+#photo-c {
+    background-image: url(../images/saintjeandemonts.jpg);
+    height:500px;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:flex-end;
+    padding-right:20px;
+}
+#photo-d {
+    background-image: url(../images/decouvrir-vendee.jpeg);
+    height:500px;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:flex-end;
+    padding-right:20px;
+}
+/* DEUXIEME PARAGRAPHE =  =  =  =  =  =  =  =  =  =  =  =  =  =  = */ 
+/* TEXTE */
+#paragraphe2 {
+    margin-top:100px;
+}
+#paragraphe2 h4 {
+    font-size: 2em;
+}
+
+#text-p-2 {
+    padding: 0 20px;
+    text-align: justify;
+}
+
+#paragraphe2 h4:after {
+    display: block;
+    width: 400px;
+    height: 4px;
+    background-color: #008037;
+    content: "";
+    margin-top: 30px;
+}
+#paragraphe2 p {
+    margin-top:40px;
+}
+/* IMAGE */
+#paragraphe2 img {
+    height:auto;
+    width:100%;
+}
+/* FOOTER =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  */
+footer {
+    background-color: grey;
+}
+footer p {
+    color:white;
 }
