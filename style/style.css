@@ -303,7 +303,45 @@ nav div {
 /* FOOTER =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  */
 footer {
     background-color: grey;
+    margin-top:100px;
+    padding: 0 20px 10px 20px;
 }
 footer p {
     color:white;
+    font-size:20px;
+}
+#bouton-footer {
+    background-color: white;
+    border-radius:30px;
+    font-family:'Montserrat', sans-serif;
+    font-size:1.3em;
+    color:#008037;
+    font-weight:bold;
+    width:10em;
+    transition:all 0.6s;
+}
+#bouton-footer:hover {
+    color:white;
+    background-color: black;
+}
+footer i{
+    font-size:4em;
+    color:#008037;
+    transition:all 0.6s;
+
+}
+footer i:hover {
+    color:white;
+}
+#reseaux {
+    display:flex;
+    flex-direction:row-reverse;
+    gap:4%;
+}
+#CGU {
+    display:flex;
+    align-items:flex-end;
+}
+#CGU p {
+    margin-bottom:0;
 }
