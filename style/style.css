@@ -10,6 +10,11 @@ h1, h2, h3, h4 {
     font-weight: bold;
 }
 
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+}
+
 /* NAVBAR =  =  =  =  =  =  =  =  =  =  =  =  =  =  = */
 nav {
     font-family: 'Montserrat', sans-serif;
@@ -54,19 +59,23 @@ nav div {
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
+
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
+
 .carousel-control-prev {
     height: 52.5%;
     align-items: flex-end;
 }
+
 /* GESTION BOUTONS - - - - - - - - - - */
 .carousel-caption {
     left: 1em;
     text-align: left;
-    flex-direction:column;
+    flex-direction: column;
 }
+
 .bouton-carousel-1 {
     border-radius: 30px;
     width: 18%;
@@ -80,21 +89,25 @@ nav div {
     transition: all 1s;
     z-index: 3;
 }
+
 @media screen and (max-width:736px) {
     .bouton-carousel-1 {
-        width:35%;
-        height:5%;
-        font-size:15px;
+        width: 35%;
+        height: 5%;
+        font-size: 15px;
     }
+
     .bouton-carousel-2 {
-        display:none;
+        display: none;
     }
 }
+
 .bouton-carousel-1:hover {
     background-color: white;
     color: black;
     border: solid 1px #7c5d3d;
 }
+
 .bouton-carousel-2 {
     border-radius: 30px;
     width: 18%;
@@ -107,43 +120,90 @@ nav div {
     border: solid 1px #003b1a;
     transition: all 1s;
 }
+
 .bouton-carousel-2:hover {
     background-color: white;
     color: black;
     border: solid 1px #7c5d3d;
 }
 
-/* PHOTOS A GAUCHE DU CAROUSEL =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  */
+/* PHOTOS SOUS LE CAROUSEL =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  */
 #photo-arbre {
-    height:500px;
+    height: 500px;
     background-image: url(../images/arbre_liberte.jpg);
-    background-size:cover;
-    background-position:center;
-    display:flex;
-    align-items:flex-end;
-    flex-direction:row-reverse;
-    padding-right:10px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    padding-right: 10px;
 }
+
 .photos-carousel h3 {
-    color:white;
+    color: white;
 }
+
 #photo-lavoir {
-    height:500px;
+    height: 500px;
     background-image: url(../images/lavoir.jpg);
-    background-size:cover;
-    background-position:center;
-    display:flex;
-    align-items:flex-end;
-    flex-direction:row-reverse;
-    padding-right:10px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    padding-right: 10px;
 }
+
 #photo-chambre {
-    height:500px;
+    height: 500px;
     background-image: url(../images/chambre1.jpg);
-    background-size:cover;
-    background-position:center;
-    display:flex;
-    align-items:flex-end;
-    flex-direction:row-reverse;
-    padding-right:10px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    padding-right: 10px;
+}
+
+/* PREMIER PARAGRAPHE =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  */
+/* TEXTE */
+#paragraphe1 {
+    margin-top: 100px;
+}
+
+#paragraphe1 h4 {
+    font-size: 2.5em;
+}
+
+#text-p-1 {
+    padding: 0 30px;
+    text-align: justify;
+}
+
+#paragraphe1 h4:after {
+    display: block;
+    width: 400px;
+    height: 4px;
+    background-color: #008037;
+    content: "";
+    margin-top: 30px;
+}
+
+/* IMAGE */
+#paragraphe1 img {
+    height: 100%;
+    width: 90%;
+    margin-left: 50px;
+    justify-self: center;
+}
+
+.image-p1 {
+    text-align: center;
+}
+
+@media screen and (max-width:1200px) {
+    #paragraphe1 img {
+        margin-left: 0;
+        margin-top: 30px;
+    }
 }
