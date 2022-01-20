@@ -414,3 +414,69 @@ footer i:hover {
         height:20vh;
     }
 }
+/* <=> <=> <=> <=> <=> CONTACT <=> <=> <=> <=> <=> */
+/* - - - - - - - - - - ACCUEIL - - - - - - - - - - */
+#c-accueil {
+    background-image: url(../images/Images-Contact/Image-header.jpg);
+    background-position:center;
+    background-size:cover;
+    height:80vh;
+    padding-left:20px;
+}
+#c-accueil h1 {
+    color:white;
+}
+#c-accueil h4 {
+    color:white;
+}
+#c-accueil h1 {
+    margin-left:1px;
+    margin-top:30px;
+}
+#c-accueil h4 {
+    font-size:1em;
+    margin-left:3px;
+    margin-bottom:30px;
+}
+#c-accueil h2 {
+    margin:0;
+    font-size:1.3em;
+}
+#c-numero {
+    display:flex;
+    background-color: #AE8964;
+    width:230px;
+    height:40px;
+    justify-content: center;
+    align-items:center;
+    border-radius:30px;
+}
+/* CADRE DE CONTACT */
+#c-section2 {
+    margin-top:50px;
+    text-align:center;
+}
+#c-section2 h4 {
+    font-size:3em;
+    margin-bottom:20px;
+}
+#c-section2 p {
+    color:white;
+    font-size:2em;
+}
+#c-textcontact {
+    background-color: #AE8964;
+    padding:20px;
+    box-shadow : 0 0 10px black;
+    border-radius:20px;
+}
+#c-contactlinks {
+    text-align:start;
+}
+#c-contactlinks i {
+    margin-right:30px;
+    color:darkslategray;
+}
+#pin {
+    margin-right:10px;
+}
