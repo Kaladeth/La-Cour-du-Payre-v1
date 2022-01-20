@@ -345,3 +345,72 @@ footer i:hover {
 #CGU p {
     margin-bottom:0;
 }
+/* <=> <=> <=> <=> <=> GITES <=> <=> <=> <=> <=> */
+/* - - - - - - - - - - ACCUEIL - - - - - - - - - - */
+#g-accueil {
+    background-image: linear-gradient(rgba(0,120,200,0.2), rgba(0,124,124,0.2)), url(../images/Images-Gîte/Photo-exterieur.jpg);
+    background-position:center;
+    background-size:cover;
+    height:80vh;
+    padding-left:20px;
+}
+#g-btn {
+    border-radius: 30px;
+    width: 15%;
+    height: 15%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #AE8964;
+    background-color: #008037;
+    border: solid 1px #003b1a;
+    opacity:95%;
+    transition: all 1s;
+}
+#g-accueil h1 {
+    color:white;
+    margin-top:20px;
+    margin-left:2px;
+}
+#g-accueil h4 {
+    color:white;
+    font-size:1em;
+    margin-bottom:30px;
+    margin-left:5px;
+}
+@media screen and (max-width:1080px) {
+    #g-btn {
+        font-size:0.8em;
+    }
+}
+@media screen and (max-width:780px) {
+    #g-btn {
+        width:40%;
+    }
+}
+/* - - - - - - - - - - CAROUSEL - - - - - - - - - - - */
+#g-section2 {
+    border:2px solid grey;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+#g-section2 img {
+    height:50vh;
+}
+#carouselExampleIndicators {
+    background-color:#AE8964;
+    height:50vh;
+}
+#g-section2 .col {
+    padding:0;
+}
+/* - - - - - - - - - - ANNONCE - - - - - - - - - - */
+#g-annonce {
+    background-color: #AE8964;
+    height:15vh;
+}
+@media screen and (max-width:600px) {
+    #g-annonce {
+        height:20vh;
+    }
+}
