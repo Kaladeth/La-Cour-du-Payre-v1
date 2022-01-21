@@ -595,3 +595,18 @@ footer i:hover {
        font-size:0.6em;
 } 
 }
+/* VILLES */
+#r-titre2 {
+    background-color: #AE8964;
+    border:1px solid grey;
+    box-shadow:0 0 10px black;
+    padding:40px;
+}
+#r-titre2 p {
+    color:white;
+}
+@media screen and (max-width:600px){
+    #r-section3 .carousel-caption {
+        font-size:0.6em;
+ } 
+}
