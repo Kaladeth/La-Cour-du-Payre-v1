@@ -539,3 +539,59 @@ footer i:hover {
 #c-section4 p {
     color:#008037;
 }
+/* <=> <=> <=> <=> <=> REGION <=> <=> <=> <=> <=> */
+/* ACCUEIL */
+#r-accueil {
+    background-image: linear-gradient(rgba(197, 200, 0, 0.2), rgba(45, 124, 0, 0.2)), url(../images/Images-Region/header.jpg);
+    background-size:cover;
+    background-position:center;
+    height:80vh;
+    padding:30px;
+}
+#r-section1 h1 {
+    color:white;
+}
+#r-section1 h4 {
+    color:white;
+    font-size:1em;
+    margin-left:4px;
+}
+#r-accueil button {
+    border-radius: 30px;
+    width: 15%;
+    height: 15%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #AE8964;
+    background-color: #008037;
+    border: solid 1px #003b1a;
+    opacity:95%;
+    transition: all 1s;
+}
+@media screen and (max-width:980px) {
+    #r-accueil button {
+        font-size: 15px;
+        width: 25%;
+    }
+}
+@media screen and (max-width:535px) {
+    #r-accueil button {
+        width: 60%;
+    }
+}
+/* REGION PROCHE */
+#r-titre1 {
+    background-color: #AE8964;
+    border:1px solid grey;
+    box-shadow:0 0 10px black;
+    padding:40px;
+}
+#r-titre1 p {
+    color:white;
+}
+@media screen and (max-width:600px){
+   #r-section2 .carousel-caption {
+       font-size:0.6em;
+} 
+}
