@@ -610,3 +610,13 @@ footer i:hover {
         font-size:0.6em;
  } 
 }
+/* ACTIVITES */
+#r-titre3 {
+    background-color: #AE8964;
+    border:1px solid grey;
+    box-shadow:0 0 10px black;
+    padding:40px;
+}
+#r-titre3 p {
+    color:white;
+}
